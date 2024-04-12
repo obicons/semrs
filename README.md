@@ -1,6 +1,6 @@
 # semrs
 ![Build](https://github.com/obicons/semrs/actions/workflows/rust.yml/badge.svg)
-![crates.io](https://github.com/obicons/semrs/actions/workflows/rust.yml/badge.svg)
+![crates.io](https://img.shields.io/crates/v/semrs)
 
 
 This is a dependency-free, pure Rust implementation of counting semaphores.
