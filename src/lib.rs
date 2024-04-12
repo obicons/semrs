@@ -25,7 +25,7 @@ impl Semaphore {
             if has_resource {
                 *guard -= 1;
             } else {
-                let _ = self.barrier.wait(guard);
+                let _unused = self.barrier.wait(guard);
             }
         }
     }
