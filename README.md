@@ -2,12 +2,23 @@
 ![Build](https://github.com/obicons/semrs/actions/workflows/rust.yml/badge.svg)
 ![crates.io](https://img.shields.io/crates/v/semrs)
 
-
 This is a dependency-free, pure Rust implementation of counting semaphores.
 
 Crates.io: [https://crates.io/crates/semrs](https://crates.io/crates/semrs).
 
 GitHub repository: [https://github.com/obicons/semrs](https://github.com/obicons/semrs).
+
+## Getting Started
+
+```shell
+cargo add semrs
+```
+
+Or add the following line to your Cargo.toml:
+
+```
+semrs = "0.5.2"
+```
 
 ## About
 Unfortunately, the use of semaphores often requires unsafe
