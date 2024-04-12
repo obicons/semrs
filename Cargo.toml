@@ -2,6 +2,8 @@
 name = "semrs"
 version = "0.5.0"
 edition = "2021"
+description = "A pure rust implementation of semaphores."
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
