@@ -1,6 +1,9 @@
 # semrs
 This is a dependency-free, pure Rust implementation of counting semaphores.
 
+Crates.io: [https://crates.io/crates/semrs](https://crates.io/crates/semrs).
+GitHub repository: [https://github.com/obicons/semrs](https://github.com/obicons/semrs).
+
 ## About
 Unfortunately, the use of semaphores often requires unsafe
 blocks. Fundamentally, a semaphore does not provide exclusive
